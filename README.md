@@ -1,5 +1,7 @@
 # AIRGEDDON - Hướng Dẫn Sử Dụng Tiếng Việt
 
+> **Dịch và biên tập bởi: xuanthanhtai (https://github.com/thanhtai21)**
+
 > **⚠️ CẢNH BÁO: Chỉ sử dụng cho mục đích học tập và nghiên cứu trên mạng không dây của riêng bạn.**
 
 ---
@@ -694,7 +696,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 ### Thông tin về bản dịch
 - **Tác giả gốc:** v1s1t0r1sh3r3 (https://github.com/v1s1t0r1sh3r3)
 - **Repository gốc:** https://github.com/v1s1t0r1sh3r3/airgeddon
-- **Bản dịch:** thanhtai21 (https://github.com/thanhtai21)
+- **Bản dịch:** xuanthanhtai - https://github.com/thanhtai21
 - **Ngày tạo bản dịch:** 13/09/2026
 - **Mục đích:** Hỗ trợ học tập cho cộng đồng Việt Nam
 
