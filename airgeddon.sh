@@ -32,6 +32,7 @@ declare -A lang_association=(
 								["tr"]="TURKISH"
 								["ar"]="ARABIC"
 								["zh"]="CHINESE"
+								["vi"]="VIETNAMESE"
 							)
 
 rtl_languages=(

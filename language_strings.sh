@@ -61,12 +61,13 @@ function initialize_language_strings() {
 	hintprefix["TURKISH"]="İpucu"
 	hintprefix["ARABIC"]="تلميح"
 	hintprefix["CHINESE"]="提示"
+	hintprefix["VIETNAMESE"]="Mẹo"
 	hintvar="${hintprefix[${language}]}"
 
 	declare -A optionaltool_needed
 	optionaltool_needed["ENGLISH"]="Locked option, it needs: "
 	optionaltool_needed["SPANISH"]="Opción bloqueada, requiere: "
-	optionaltool_needed["FRENCH"]="Option bloquée parce qu’il manque: "
+	optionaltool_needed["FRENCH"]="Option bloquée parce qu'il manque: "
 	optionaltool_needed["CATALAN"]="Opció bloquejada, necessita: "
 	optionaltool_needed["PORTUGUESE"]="Opção bloqueada requer: "
 	optionaltool_needed["RUSSIAN"]="Опция заблокирована, требуется: "
@@ -77,6 +78,7 @@ function initialize_language_strings() {
 	optionaltool_needed["TURKISH"]="Engellenen seçenek şunları gerektirir: "
 	optionaltool_needed["ARABIC"]=" :خيار مغلق يتطلب"
 	optionaltool_needed["CHINESE"]="锁定选项，它需要: "
+	optionaltool_needed["VIETNAMESE"]="Tùy chọn bị khóa, cần: "
 
 	declare -gA under_construction
 	under_construction["ENGLISH"]="under construction"
@@ -92,6 +94,7 @@ function initialize_language_strings() {
 	under_construction["TURKISH"]="yapım aşamasında"
 	under_construction["ARABIC"]="في طور الإنشاء"
 	under_construction["CHINESE"]="正在准备"
+	under_construction["VIETNAMESE"]="đang xây dựng"
 
 	declare -gA possible_package_names_text
 	possible_package_names_text["ENGLISH"]="Possible package name"
@@ -107,6 +110,7 @@ function initialize_language_strings() {
 	possible_package_names_text["TURKISH"]="Olası paket adı"
 	possible_package_names_text["ARABIC"]="اسم الحزمة المحتمل"
 	possible_package_names_text["CHINESE"]="可能的软件包名称"
+	possible_package_names_text["VIETNAMESE"]="Tên package có thể"
 
 	declare -gA disabled_text
 	disabled_text["ENGLISH"]="Disabled"
@@ -122,6 +126,7 @@ function initialize_language_strings() {
 	disabled_text["TURKISH"]="Aktif Değil"
 	disabled_text["ARABIC"]="معطل"
 	disabled_text["CHINESE"]="禁用"
+	disabled_text["VIETNAMESE"]="Đã tắt"
 
 	declare -gA reboot_required
 	reboot_required["ENGLISH"]="${red_color_slim} (reboot required)${normal_color}"
@@ -137,6 +142,7 @@ function initialize_language_strings() {
 	reboot_required["TURKISH"]="${red_color_slim} (yeniden başlatma gerekli)${normal_color}"
 	reboot_required["ARABIC"]="${red_color_slim} (المطلوب إعادة التشغيل) ${normal_color}"
 	reboot_required["CHINESE"]="${red_color_slim} (需要重启) ${normal_color}"
+	reboot_required["VIETNAMESE"]="${red_color_slim} (cần khởi động lại)${normal_color}"
 
 	declare -gA docker_image
 	docker_image["ENGLISH"]="${docker_based_distro} Docker image based"
@@ -152,6 +158,7 @@ function initialize_language_strings() {
 	docker_image["TURKISH"]="${docker_based_distro} Docker image tabanlı"
 	docker_image["ARABIC"]="Docker ${docker_based_distro} الصورة مبنية على"
 	docker_image["CHINESE"]="${docker_based_distro} 基于 Docker 镜像"
+	docker_image["VIETNAMESE"]="Dựa trên Docker image ${docker_based_distro}"
 
 	declare -gA et_misc_texts
 	et_misc_texts["ENGLISH",0]="Evil Twin AP Info"
@@ -13058,3 +13065,96 @@ function hookable_for_languages() {
 
 	:
 }
+
+	arr["VIETNAMESE",117]="che do smooth, ngat ket noi sau khi bat"`
+	arr["VIETNAMESE",118]="4.  MENU TAN CONG DoS"`
+	arr["VIETNAMESE",119]="5.  MENU Cong cu Handshake/PMKID/Decloaking"`
+	arr["VIETNAMESE",120]="MENU Cong cu Handshake/PMKID/Decloaking"`
+	arr["VIETNAMESE",121]="6.  Bat Handshake"`
+	arr["VIETNAMESE",122]="7.  Lam sach/toi uu file Handshake"`
+	arr["VIETNAMESE",124]="che do monitor can thiet de bat goi tin"`
+	arr["VIETNAMESE",125]="Chua chon mang muc tieu hop le. Ban se duoc chuyen den de chon"`
+	arr["VIETNAMESE",126]="Ban da chon mang WPA/WPA2/WPA3 hop le. Script co the tiep tuc..."`
+	arr["VIETNAMESE",127]="Thu tu thuc hien trong menu nay thuong la: 1-Chon wifi 2-Bat monitor 3-Chon mang 4-Bat Handshake/PMKID"
+	arr["VIETNAMESE",108]="Kiem tra xem ban da cai dat nhung gi script can chua"`
+	arr["VIETNAMESE",128]="7.  Menu giai ma WPA/WPA2 offline"`
+	arr["VIETNAMESE",129]="8.  Menu tan cong WPS"`
+	arr["VIETNAMESE",130]="9.  Menu tan cong WEP"`
+	arr["VIETNAMESE",131]="10. Menu tan cong Enterprise"`
+	arr["VIETNAMESE",132]="11. Menu tan cong WPA3"`
+	arr["VIETNAMESE",133]="Gioi thieu & Cam on / Nha tai tro"`
+	arr["VIETNAMESE",134]="Tuy chon va ngon ngu"`
+	arr["VIETNAMESE",135]="6.  Bat Handshake"`
+	arr["VIETNAMESE",200]="Ban chon khong hoat dong"`
+	arr["VIETNAMESE",201]="Khong phai adapter WiFi"`
+	arr["VIETNAMESE",202]="Dang tai file, vui long cho..."`
+	arr["VIETNAMESE",203]="Khong co ket noi internet"`
+	arr["VIETNAMESE",204]="Dang tai phien ban moi..."`
+	arr["VIETNAMESE",205]="Khong the tai phien ban moi"`
+	arr["VIETNAMESE",206]="Ban dang su dung phien ban moi nhat"`
+	arr["VIETNAMESE",207]="Loi khi doc file cau hinh"`
+	arr["VIETNAMESE",208]="Phien ban script bi cu"`
+	arr["VIETNAMESE",210]="Dang tai database PIN..."`
+	arr["VIETNAMESE",211]="Tai thanh cong database PIN"`
+	arr["VIETNAMESE",212]="Khong the tai database PIN"`
+	arr["VIETNAMESE",215]="Khong tim thay giao dien WiFi"`
+	arr["VIETNAMESE",220]="Khong ho tro che do monitor"`
+	arr["VIETNAMESE",225]="Dang chuyen sang che do monitor..."`
+	arr["VIETNAMESE",226]="Da chuyen thanh cong sang che do monitor"`
+	arr["VIETNAMESE",227]="Khong the chuyen sang che do monitor"`
+	arr["VIETNAMESE",230]="Dang quet mang WiFi..."`
+	arr["VIETNAMESE",231]="Khong tim thay mang nao"`
+	arr["VIETNAMESE",235]="Dang bat handshake..."`
+	arr["VIETNAMESE",236]="Da bat thanh cong handshake"`
+	arr["VIETNAMESE",237]="Khong the bat handshake"`
+	arr["VIETNAMESE",240]="Dang tan cong PMKID..."`
+	arr["VIETNAMESE",241]="Da bat thanh cong PMKID"`
+	arr["VIETNAMESE",242]="Khong the bat PMKID"`
+	arr["VIETNAMESE",245]="Dang tao Evil Twin AP..."`
+	arr["VIETNAMESE",246]="Evil Twin AP da san sang"`
+	arr["VIETNAMESE",247]="Dang cho client ket noi..."`
+	arr["VIETNAMESE",248]="Co client da ket noi!"`
+	arr["VIETNAMESE",250]="Dang giai ma mat khau..."`
+	arr["VIETNAMESE",251]="Mat khau: "`
+	arr["VIETNAMESE",252]="Khong the giai ma"`
+	arr["VIETNAMESE",255]="Dang tan cong WPS..."`
+	arr["VIETNAMESE",256]="Da tim thay PIN: "`
+	arr["VIETNAMESE",257]="PIN khong dung"`
+	arr["VIETNAMESE",260]="Dang tan cong WEP..."`
+	arr["VIETNAMESE",261]="Da thu thap du du lieu IV"`
+	arr["VIETNAMESE",262]="Dang giai ma WEP key..."`
+	arr["VIETNAMESE",265]="WEP Key: "`
+	arr["VIETNAMESE",270]="Ban co chac chan muon thoat?"`
+	arr["VIETNAMESE",271]="Co"`
+	arr["VIETNAMESE",272]="Khong"`
+	arr["VIETNAMESE",275]="Nhan [Enter] de tiep tuc..."`
+	arr["VIETNAMESE",280]="Dang luu ket qua..."`
+	arr["VIETNAMESE",281]="Da luu thanh cong ket qua"`
+	arr["VIETNAMESE",285]="Loi: Khong du quyen truy cap"`
+	arr["VIETNAMESE",286]="Vui long chay voi sudo"`
+	arr["VIETNAMESE",290]="Dang kiem tra cong cu..."`
+	arr["VIETNAMESE",291]="Tat ca cong cu da san sang"`
+	arr["VIETNAMESE",292]="Thieu mot so cong cu: "`
+	arr["VIETNAMESE",295]="Chi su dung tren mang cua ban!!"`
+	arr["VIETNAMESE",300]="Dang quet WPS..."`
+	arr["VIETNAMESE",301]="Tim thay WPS: "`
+	arr["VIETNAMESE",305]="Dang tan cong Pixie Dust..."`
+	arr["VIETNAMESE",306]="Pixie Dust thanh cong! PIN: "`
+	arr["VIETNAMESE",307]="Pixie Dust that bai"`
+	arr["VIETNAMESE",310]="Dang thu PIN..."`
+	arr["VIETNAMESE",311]="PIN dung: "`
+	arr["VIETNAMESE",315]="Tien do: "`
+	arr["VIETNAMESE",316]=" thoi gian con lai"`
+	arr["VIETNAMESE",320]="Dang tao captive portal..."`
+	arr["VIETNAMESE",321]="Captive portal da san sang"`
+	arr["VIETNAMESE",325]="Co client truy cap portal!"`
+	arr["VIETNAMESE",326]="Mat khau da duoc nhap: "`
+	arr["VIETNAMESE",330]="Dang kiem tra mat khau..."`
+	arr["VIETNAMESE",331]="Mat khau dung!"`
+	arr["VIETNAMESE",332]="Mat khau sai"`
+	arr["VIETNAMESE",335]="Dang tao AP gia mao..."`
+	arr["VIETNAMESE",336]="AP gia mao da duoc tao"`
+	arr["VIETNAMESE",340]="Dang chay aircrack-ng..."`
+	arr["VIETNAMESE",341]="Dang chay hashcat..."`
+	arr["VIETnameSE",345]="Hoan tat!"`
+	arr["VIETnameSE",346]="That bai!"
