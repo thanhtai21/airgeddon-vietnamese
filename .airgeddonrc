@@ -11,7 +11,7 @@ AIRGEDDON_BASIC_COLORS=true
 AIRGEDDON_EXTENDED_COLORS=true
 
 #Enabled true / Disabled false - Auto change language feature - Default value true
-AIRGEDDON_AUTO_CHANGE_LANGUAGE=true
+AIRGEDDON_AUTO_CHANGE_LANGUAGE=false
 
 #Enabled true / Disabled false - Dependencies, root and bash version checks are done silently (it has no effect on development mode) - Default value false
 AIRGEDDON_SILENT_CHECKS=false
