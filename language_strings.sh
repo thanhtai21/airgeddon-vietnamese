@@ -1205,6 +1205,7 @@ function initialize_language_strings() {
 	arr["TURKISH",6]="airgeddon yazılımına hoşgeldiniz \${normal_color}v\${airgeddon_version}"
 	arr["ARABIC",6]="\${normal_color}v\${airgeddon_version}\${blue_color} airgeddon مرحبا بكم في"
 	arr["CHINESE",6]="欢迎使用 airgeddon 脚本 \${normal_color}v\${airgeddon_version}"
+	arr["VIETNAMESE",6]="Chao mung ban den voi airgeddon \${normal_color}v\${airgeddon_version}"
 
 	arr["ENGLISH",7]="This script is only for educational purposes. Be good boyz&girlz!"
 	arr["SPANISH",7]="Este script se ha hecho sólo con fines educativos. Sed buen@s chic@s!"
@@ -1219,6 +1220,7 @@ function initialize_language_strings() {
 	arr["TURKISH",7]="Bu yazılım sadece eğitim amaçlıdır. Akıllı olun çocuklar!"
 	arr["ARABIC",7]="!هذا البرنامج هو فقط لأغراض تعليمية. كونوا أولاد وبنات جيدين"
 	arr["CHINESE",7]="此脚本仅用于教育目的。请做个好孩子！"
+	arr["VIETNAMESE",7]="Script nay chi dung cho muc dich hoc tap. Hay la nguoi tot!"
 
 	arr["ENGLISH",8]="Known compatible distros with this script:"
 	arr["SPANISH",8]="Distros conocidas compatibles con este script:"
@@ -1233,6 +1235,7 @@ function initialize_language_strings() {
 	arr["TURKISH",8]="Bu komut dosyasıyla bilinen uyumlu dağıtımlar:"
 	arr["ARABIC",8]=":التوزيعات المتوافقة المعروفة مع هذا البرنامج"
 	arr["CHINESE",8]="与此脚本兼容的已知的 Linux 发行版:"
+	arr["VIETNAMESE",8]="Cac phan mem Linux ho tro script nay:"
 
 	arr["ENGLISH",9]="Detecting system..."
 	arr["SPANISH",9]="Detectando sistema..."
@@ -1247,6 +1250,7 @@ function initialize_language_strings() {
 	arr["TURKISH",9]="Sistem tespit ediliyor..."
 	arr["ARABIC",9]="...الكشف عن النظام"
 	arr["CHINESE",9]="检测到当前系统..."
+	arr["VIETNAMESE",9]="Dang phat hien he thong..."
 
 	arr["ENGLISH",10]="This interface \${current_iface_on_messages} is already in monitor mode"
 	arr["SPANISH",10]="Esta interfaz \${current_iface_on_messages} ya está en modo monitor"
@@ -1261,6 +1265,7 @@ function initialize_language_strings() {
 	arr["TURKISH",10]="Bu arayüz \${current_iface_on_messages} zaten izleme modunda"
 	arr["ARABIC",10]="Monitor mode  في وضع  \${current_iface_on_messages} هذه الواجهة"
 	arr["CHINESE",10]="此接口 \${current_iface_on_messages} 已处于监控模式"
+	arr["VIETNAMESE",10]="Giao dien \${current_iface_on_messages} da o che do monitor"
 
 	arr["ENGLISH",11]="Exiting airgeddon script \${normal_color}v\${airgeddon_version}\${blue_color} - See you soon! :)"
 	arr["SPANISH",11]="Saliendo de airgeddon script \${normal_color}v\${airgeddon_version}\${blue_color} - Nos vemos pronto! :)"
@@ -1275,6 +1280,7 @@ function initialize_language_strings() {
 	arr["TURKISH",11]="airgeddon yazılımından çıkış yapılıyor \${normal_color}v\${airgeddon_version}\${blue_color} - Tekrar görüşürüz! :)"
 	arr["ARABIC",11]="اراك قريبا! :) - \${normal_color}v\${airgeddon_version}\${blue_color} الخروج من البرنامج"
 	arr["CHINESE",11]="退出 airgeddon 脚本 \${normal_color}v\${airgeddon_version}\${blue_color} - 待会见！:)"
+	arr["VIETNAMESE",11]="Thoat airgeddon \${normal_color}v\${airgeddon_version}\${blue_color} - Hen gap lai! :)"
 
 	arr["ENGLISH",12]="\${blue_color}Interruption detected. \${green_color}Do you really want to exit? \${normal_color}\${visual_choice}"
 	arr["SPANISH",12]="\${blue_color}Detectada interrupción. \${green_color}¿Quieres realmente salir del script? \${normal_color}\${visual_choice}"
@@ -1289,6 +1295,7 @@ function initialize_language_strings() {
 	arr["TURKISH",12]="\${blue_color}Kesinti algılandı. \${green_color}Gerçekten çıkış yapmak istiyor musunuz? \${normal_color}\${visual_choice}"
 	arr["ARABIC",12]="\${normal_color}\${visual_choice} \${green_color}هل تريد حقًا الخروج؟ \${blue_color}.تم اكتشاف مقاطعة\${normal_color}"
 	arr["CHINESE",12]="\${blue_color}检测到中断信号。\${green_color}您真的要退出吗？\${normal_color}\${visual_choice}"
+	arr["VIETNAMESE",12]="\${blue_color}Phat hien ngat quang. \${green_color}Ban co that su muon thoat? \${normal_color}\${visual_choice}"
 
 	arr["ENGLISH",13]="This interface \${current_iface_on_messages} is not a wifi card. It doesn't support monitor mode"
 	arr["SPANISH",13]="Esta interfaz \${current_iface_on_messages} no es una tarjeta wifi. No soporta modo monitor"
@@ -2325,6 +2332,7 @@ function initialize_language_strings() {
 	arr["TURKISH",86]="Hoşgeldiniz"
 	arr["ARABIC",86]="مرحبا"
 	arr["CHINESE",86]="欢迎"
+	arr["VIETNAMESE",86]="Chao mung ban den voi airgeddon"
 
 	arr["ENGLISH",87]="Change language"
 	arr["SPANISH",87]="Cambiar idioma"
@@ -2339,6 +2347,7 @@ function initialize_language_strings() {
 	arr["TURKISH",87]="Dili Değiştir"
 	arr["ARABIC",87]="تغيير اللغة"
 	arr["CHINESE",87]="设置语言"
+	arr["VIETNAMESE",87]="Doi ngon ngu"
 
 	arr["ENGLISH",88]="Interface selection"
 	arr["SPANISH",88]="Selección de interfaz"
@@ -2353,6 +2362,7 @@ function initialize_language_strings() {
 	arr["TURKISH",88]="Arayüz seçimi"
 	arr["ARABIC",88]="اختيار الواجهة"
 	arr["CHINESE",88]="接口选择菜单"
+	arr["VIETNAMESE",88]="Chon giao dien"
 
 	arr["ENGLISH",89]="\${mdk_command} amok action"
 	arr["SPANISH",89]="Acción \${mdk_command} amok"
@@ -13158,3 +13168,12 @@ function hookable_for_languages() {
 	arr["VIETNAMESE",341]="Dang chay hashcat..."`
 	arr["VIETnameSE",345]="Hoan tat!"`
 	arr["VIETnameSE",346]="That bai!"
+	arr["VIETNAMESE",9]="Dang phat hien he thong..."
+	arr["VIETNAMESE",10]="Giao dien nay da o che do monitor"
+	arr["VIETNAMESE",11]="Dang thoat airgeddon \${normal_color}v\${airgeddon_version}\${blue_color} - Hen gap lai! :)"
+	arr["VIETNAMESE",12]="\${blue_color}Phat hien ngat quang. \${green_color}Ban co that su muon thoat? \${normal_color}\${visual_choice}"
+	arr["VIETNAMESE",13]="Giao dien khong phai WiFi. Khong ho tro che do monitor"
+	arr["VIETNAMESE",14]="Giao dien dang o che do managed"
+	arr["VIETNAMESE",15]="Giao dien da doi ten khi chuyen managed. Da tu dong chon"
+.arr["VIETNAMESE",16]="Da dat che do managed tren \${current_iface_on_messages}"
+	arr["VIETNAMESE",17]="Dang chuyen giao dien sang che do managed..."
