@@ -3230,6 +3230,7 @@ function language_menu() {
 	language_strings "${language}" 519
 	language_strings "${language}" 687
 	language_strings "${language}" 717
+	language_strings "${language}" 850
 	print_hint
 
 	read -rp "> " language_selected
@@ -3242,7 +3243,7 @@ function language_menu() {
 			if [ "${language}" = "ENGLISH" ]; then
 				language_strings "${language}" 251 "red"
 			else
-language="VIETNAMESE"
+				language="ENGLISH"
 				language_strings "${language}" 83 "yellow"
 			fi
 			language_strings "${language}" 115 "read"
@@ -11178,6 +11179,7 @@ function set_captive_portal_language() {
 	language_strings "${language}" 519
 	language_strings "${language}" 687
 	language_strings "${language}" 717
+	language_strings "${language}" 850
 	print_hint
 
 	read -rp "> " captive_portal_language_selected
