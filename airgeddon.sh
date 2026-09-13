@@ -3242,7 +3242,7 @@ function language_menu() {
 			if [ "${language}" = "ENGLISH" ]; then
 				language_strings "${language}" 251 "red"
 			else
-				language="ENGLISH"
+language="VIETNAMESE"
 				language_strings "${language}" 83 "yellow"
 			fi
 			language_strings "${language}" 115 "read"
