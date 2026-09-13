@@ -20884,9 +20884,10 @@ function main() {
 
 	if ! "${AIRGEDDON_DEVELOPMENT_MODE:-false}"; then
 		if ! "${AIRGEDDON_SKIP_INTRO:-false}"; then
-			language_strings "${language}" 86 "title"
-			language_strings "${language}" 6 "blue"
-			echo
+		language_strings "${language}" 86 "title"
+		language_strings "${language}" 6 "blue"
+		echo -e "                                             \033[33mDich boi: xuanthanhtai\033[0m"
+		echo
 			if check_window_size_for_intro; then
 				print_intro
 			else
@@ -20900,6 +20901,7 @@ function main() {
 		clear
 		language_strings "${language}" 86 "title"
 		language_strings "${language}" 7 "pink"
+		echo -e "                                             \033[33mDich boi: xuanthanhtai\033[0m"
 		language_strings "${language}" 114 "pink"
 
 		if [ "${autochanged_language}" -eq 1 ]; then
