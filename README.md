@@ -519,15 +519,50 @@ sudo bash airgeddon.sh
 
 ## Nhắc Nhở Khi Sử Dụng
 
-### ⚖️ Pháp lý
+### ⚖️ Pháp lý & Luật An ninh mạng Việt Nam
 ```
-╔══════════════════════════════════════════════════════════════╗
-║                    CẢNH BÁO PHÁP LÝ                        ║
-╠══════════════════════════════════════════════════════════════╣
-║ • Chỉ test trên mạng bạn sở hữu hoặc được phép            ║
-║ • Vi phạm có thể bị phạt tiền hoặc tịch thu thiết bị      ║
-║ • Luôn có sự đồng ý bằng văn bản từ chủ sở hữu mạng       ║
-╚══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════╗
+║              ⚠️ CẢNH BÁO PHÁP LÝ - ĐỌC KỸ                     ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  📜 LUẬT SỞ HỮU TRÍ TUỆ 2005 (sửa đổi 2019/2022)            ║
+║  • Phần mềm nguồn mở VẪN được bảo hộ quyền tác giả            ║
+║  • Vi phạm giấy phép GPL = vi phạm quyền tác giả thực sự       ║
+║  • Tòa án VN đã xử vi phạm GPL như vi phạm quyền tác giả      ║
+║                                                                  ║
+║  🔒 LUẬT AN NINH MẠNG 2018                                     ║
+║  • Điều 8: Nghiêm cấm sử dụng không gian mạng để xâm nhập    ║
+║    trái phép hệ thống thông tin                                 ║
+║  • Điều 16: Chỉ được phép tấn công xâm nhập khi có ủy quyền   ║
+║                                                                  ║
+║  ⚖️ BỘ LUẬT HÌNH SỰ 2015 (sửa đổi 2017)                     ║
+║  • Điều 289: Tội xâm nhập trái phép hệ thống mạng máy tính   ║
+║    → Phạt tù từ 1-5 năm                                         ║
+║  • Điều 290: Tội sử dụng trái phép mạng máy tính              ║
+║    → Phạt tù từ 2-7 năm                                         ║
+║                                                                  ║
+║  ✅ CHỈ SỬ DỤNG KHI CÓ UY QUYỀIN                              ║
+║  • Mạng WiFi của riêng bạn                                      ║
+║  • Được chủ sở hữu mạng đồng ý bằng văn bản                   ║
+║  • Trong môi trường lab được kiểm soát                          ║
+║  • Pentest được ủy quyền chính thức                             ║
+║                                                                  ║
+║  ⛔ TUYỆT ĐỐI KHÔNG                                            ║
+║  • Tấn công mạng WiFi của người khác                           ║
+║  • Đánh cắp thông tin trái phép                                 ║
+║  • Gây hại cho hệ thống mạng                                    ║
+║  • Sử dụng cho mục đích bất hợp pháp                           ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+### 📋 Điều kiện sử dụng
+```
+1. ✅ Chỉ test trên mạng bạn SỞ HỮU hoặc được UY QUYỀN
+2. ✅ Luôn có sự đồng ý bằng văn bản từ chủ sở hữu mạng
+3. ✅ Trong môi trường lab được kiểm soát
+4. ✅ Tuân thủ pháp luật Việt Nam và quốc tế
+5. ✅ Hiểu rõ hậu quả pháp lý nếu vi phạm
 ```
 
 ### 🔒 Bảo mật
@@ -629,67 +664,91 @@ sudo apt install aircrack-ng hashcat reaver bully
 
 ---
 
-## 📜 Bản Quyền & Tác Giả
+## 📜 Giấy Phép & Bản Quyền
 
-### ⚠️ LƯU Ý QUAN TRỌNG VỀ BẢN QUYỀN
+### Giấy phép gốc
+Bản phân phối này được phát hành theo **GNU General Public License v3.0 trở lên** (GPLv3+).
 
+### Thông báo bản quyền tác giả gốc
 ```
-╔══════════════════════════════════════════════════════════════════╗
-║           ⚠️ CẢNH BÁO BẢN QUYỀN - ĐỌC KỸ TRƯỚC KHI SỬ DỤNG  ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║  ⛔ BẢN DỊCH NÀY CHƯA ĐƯỢC SỰ ĐỒNG Ý CỦA TÁC GỐC          ║
-║                                                                  ║
-║  ✅ Đây là bản dịch KHÔNG CHÍNH THỨC                          ║
-║  ✅ Được tạo với mục đích HỌC TẬT RIÊNG                       ║
-║  ✅ KHÔNG được sử dụng thương mại                              ║
-║  ✅ KHÔNG được phân phối lại mà không có sự đồng ý             ║
-║  ✅ Nên XÓA bản dịch sau khi sử dụng                          ║
-║                                                                  ║
-║  📞 LIÊN HỆ TÁC GỐC ĐỂ XIN PHÉP:                             ║
-║  Email: v1s1t0r.1s.h3r3@gmail.com                              ║
-║  GitHub: https://github.com/v1s1t0r1sh3r3                      ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
+Airgeddon - Wireless network audit tool
+Copyright (C) v1s1t0r1sh3r3
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
 ```
 
-### Tác giả gốc
-- **Airgeddon** được tạo bởi **v1s1t0r** (https://github.com/v1s1t0r1sh3r3)
+### Thông tin về bản dịch
+- **Tác giả gốc:** v1s1t0r1sh3r3 (https://github.com/v1s1t0r1sh3r3)
 - **Repository gốc:** https://github.com/v1s1t0r1sh3r3/airgeddon
-- **Giấy phép:** GPL v3+
-
-### Bản dịch tiếng Việt
 - **Bản dịch:** thanhtai21 (https://github.com/thanhtai21)
-- **Mục đích:** HỌC TẬT RIÊNG - Chưa được tác giả gốc chấp thuận
-- **Trạng thái:** ⛔ CHƯA ĐƯỢC SỰ ĐỒNG Ý CỦA TÁC GỐC
+- **Ngày tạo bản dịch:** 13/09/2026
+- **Mục đích:** Hỗ trợ học tập cho cộng đồng Việt Nam
 
-### CAM KẾT TÔN TRỌNG BẢN QUYỀN
+### Các file đã sửa đổi
+| File | Mô tả sửa đổi | Ngày |
+|------|----------------|------|
+| `airgeddon.sh` | Thêm ngôn ngữ VIETNAMESE, thay đổi mặc định | 13/09/2026 |
+| `language_strings.sh` | Thêm bản dịch tiếng Việt cho các chuỗi | 13/09/2026 |
+| `.airgeddonrc` | Tắt auto change language | 13/09/2026 |
+| `README.md` | Tạo bản README tiếng Việt mới | 13/09/2026 |
+
+### Cam kết tuân thủ GPLv3+
 ```
 ╔══════════════════════════════════════════════════════════════════╗
-║                    CAM KẾT BẢN QUYỀN                           ║
+║              CAM KẾT TUÂN THỦ GIẤY PHÉP GPLv3+                ║
 ╠══════════════════════════════════════════════════════════════════╣
-║ ✅ Tôn trọng tác giả gốc: v1s1t0r                              ║
-║ ✅ Giữ nguyên giấy phép GPL v3+                                 ║
-║ ✅ Ghi rõ nguồn gốc khi sử dụng                                ║
-║ ✅ KHÔNG sử dụng thương mại                                    ║
-║ ✅ KHÔNG phân phối lại                                          ║
-║ ✅ Sẵn sàng XÓA nếu tác giả gốc yêu cầu                      ║
-║ ✅ Nên liên hệ tác giả gốc để xin phép chính thức             ║
+║ ✅ Giữ nguyên thông báo bản quyền tác giả gốc                  ║
+║ ✅ Nêu rõ các file đã sửa đổi và ngày sửa                      ║
+║ ✅ Đính kèm toàn văn giấy phép GPLv3                            ║
+║ ✅ Không thêm điều khoản hạn chế nào khác                       ║
+║ ✅ Ghi rõ đây là bản dịch KHÔNG CHÍNH THỨC                    ║
+║ ✅ Giữ nguyên tuyên bố "không bảo hành" của tác giả gốc       ║
+║ ✅ Cho phép sửa đổi, phân phối lại, sử dụng thương mại       ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
-### HƯỚNG DẪN SỬ DỤNG HỢP PHÁP
-1. **Chỉ sử dụng cho mục đích học tập cá nhân**
-2. **Không chia sẻ công khai bản dịch**
-3. **Xóa bản dịch sau khi học xong**
-4. **Liên hệ tác giả gốc để xin phép nếu muốn đóng góp**
-5. **Sử dụng repository gốc (tiếng Anh) cho công việc thực tế**
+### Quyền lợi theo GPLv3+
+Theo giấy phép GPLv3, bạn có quyền:
+- ✅ **Sửa đổi** mã nguồn theo nhu cầu
+- ✅ **Phân phối lại** bản gốc hoặc bản đã sửa
+- ✅ **Sử dụng thương mại** (có tính phí)
+- ✅ **Tạo derivative work** (như bản dịch này)
 
-### Liên hệ tác giả gốc
-- **Email:** v1s1t0r.1s.h3r3@gmail.com
-- **GitHub:** https://github.com/v1s1t0r1sh3r3
-- **Wiki:** https://github.com/v1s1t0r1sh3r3/airgeddon/wiki
-- **Đóng góp:** https://github.com/v1s1t0r1sh3r3/airgeddon/wiki/Contributing-&-Code-of-Conduct
+### Điều kiện phải tuân thủ
+- ✅ Giữ nguyên thông báo bản quyền gốc
+- ✅ Ghi rõ các thay đổi bạn đã thực hiện
+- ✅ Phát hành bản sửa đổi dưới cùng giấy phép GPLv3
+- ✅ Cung cấp mã nguồn khi phân phối binary
+- ✅ Không thêm điều khoản hạn chế nào khác
+
+### Lưu ý pháp lý
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                    LƯU Ý PHÁP LÝ                               ║
+╠══════════════════════════════════════════════════════════════════╣
+║ 📜 GPLv3 cho phép sử dụng thương mại và phân phối lại         ║
+║ ⚠️ Phần mềm nguồn mở VẪN được bảo hộ quyền tác giả          ║
+║ ⚠️ Vi phạm giấy phép GPL = vi phạm quyền tác giả              ║
+║ 🔒 Chỉ sử dụng cho mục đích audit được ủy quyền               ║
+║ 🔒 Tuân thủ Luật An ninh mạng 2018 và Bộ luật Hình sự      ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+### Liên hệ
+- **Tác giả gốc:** v1s1t0r.1s.h3r3@gmail.com
+- **Repository gốc:** https://github.com/v1s1t0r1sh3r3/airgeddon
+- **Toàn văn GPLv3:** https://www.gnu.org/licenses/gpl-3.0.html
 
 ---
 
