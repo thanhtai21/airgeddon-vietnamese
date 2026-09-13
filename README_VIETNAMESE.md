@@ -29,6 +29,12 @@
 
 **Phiên bản hiện tại:** 12.01
 
+### 📸 Giao diện tiếng Việt
+
+![Menu Tiếng Việt](imgs/wiki/airgeddon_menu_tieng_viet.png)
+
+*Giao diện airgeddon đã được dịch sang tiếng Việt - Dễ sử dụng cho người Việt Nam*
+
 ---
 
 ## Yêu Cầu Hệ Thống
