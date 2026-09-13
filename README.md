@@ -31,7 +31,7 @@
 
 ### 📸 Giao diện tiếng Việt
 
-![Menu Tiếng Việt](imgs/wiki/airgeddon_menu_tieng_viet.png)
+![Menu Tiếng Việt](imgs/wiki/airgeddon_menu_tieng_viet.png?v=2)
 
 *Giao diện airgeddon đã được dịch sang tiếng Việt - Dễ sử dụng cho người Việt Nam*
 
