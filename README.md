@@ -629,12 +629,44 @@ sudo apt install aircrack-ng hashcat reaver bully
 
 ---
 
-## Liên Hệ
+## 📜 Bản Quyền & Tác Giả
 
-- **GitHub:** https://github.com/v1s1t0r1sh3r3/airgeddon
+### Tác giả gốc
+- **Airgeddon** được tạo bởi **v1s1t0r** (https://github.com/v1s1t0r1sh3r3)
+- **Repository gốc:** https://github.com/v1s1t0r1sh3r3/airgeddon
+- **Giấy phép:** GPL v3+
+
+### Bản dịch tiếng Việt
+- **Bản dịch:** thanhtai21 (https://github.com/thanhtai21)
+- **Mục đích:** Hỗ trợ học tập và nghiên cứu cho cộng đồng Việt Nam
+- **Lưu ý:** Đây là bản dịch không chính thức, vui lòng tham khảo repository gốc để có phiên bản mới nhất
+
+### CAM KẾT TÔN TRỌNG BẢN QUYỀN
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                    CAM KẾT BẢN QUYỀN                           ║
+╠══════════════════════════════════════════════════════════════════╣
+║ ✅ Tôn trọng tác giả gốc: v1s1t0r                              ║
+║ ✅ Giữ nguyên giấy phép GPL v3+                                 ║
+║ ✅ Ghi rõ nguồn gốc khi sử dụng                                ║
+║ ✅ Không sử dụng thương mại mà không có sự đồng ý               ║
+║ ✅ Liên hệ tác giả gốc để đóng góp bản dịch                    ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+### Liên hệ tác giả gốc
+- **Email:** v1s1t0r.1s.h3r3@gmail.com
+- **GitHub:** https://github.com/v1s1t0r1sh3r3
 - **Wiki:** https://github.com/v1s1t0r1sh3r3/airgeddon/wiki
-- **Discord:** https://discord.gg/sQ9dgt9
+- **Đóng góp:** https://github.com/v1s1t0r1sh3r3/airgeddon/wiki/Contributing-&-Code-of-Conduct
 
 ---
 
-**📝 Ghi chú: Đây là bản dịch tiếng Việt để hỗ trợ học tập. Luôn tham khảo tài liệu gốc từ GitHub.**
+## Liên Hệ
+
+- **GitHub:** https://github.com/thanhtai21/airgeddon-vietnamese
+- **Repository gốc:** https://github.com/v1s1t0r1sh3r3/airgeddon
+
+---
+
+**📝 Ghi chú: Đây là bản dịch tiếng Việt không chính thức để hỗ trợ học tập. Luôn tham khảo repository gốc để có phiên bản mới nhất và đầy đủ tính năng.**
