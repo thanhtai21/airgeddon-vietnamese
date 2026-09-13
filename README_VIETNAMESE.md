@@ -86,7 +86,7 @@ git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
 
 ### Bước 3: Vào thư mục và chạy
 ```bash
-cd ~/airgeddon
+cd ~/airgeddon-vietnamese
 sudo bash airgeddon.sh
 ```
 
@@ -95,7 +95,7 @@ sudo bash airgeddon.sh
 ### 🚀 LỆNH CHẠY NHANH (copy-paste)
 ```bash
 # Tải + cài + chạy trong 1 lệnh
-sudo apt update && sudo apt install -y git aircrack-ng iw xterm && cd ~ && git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git && cd ~/airgeddon && sudo bash airgeddon.sh
+sudo apt update && sudo apt install -y git aircrack-ng iw xterm && cd ~ && git clone https://github.com/thanhtai21/airgeddon-vietnamese.git && cd ~/airgeddon-vietnamese && sudo bash airgeddon.sh
 ```
 
 ---
@@ -120,11 +120,11 @@ sudo apt update && sudo apt install -y git aircrack-ng iw xterm && cd ~ && git c
 
 ```bash
 # Cách 1: Vào thư mục rồi chạy
-cd ~/airgeddon
+cd ~/airgeddon-vietnamese
 sudo bash airgeddon.sh
 
 # Cách 2: Chạy trực tiếp (không cần cd)
-sudo bash ~/airgeddon/airgeddon.sh
+sudo bash ~/airgeddon-vietnamese/airgeddon.sh
 ```
 
 ---
@@ -188,11 +188,11 @@ sudo usermod -aG docker $USER
 sudo apt update
 sudo apt install git
 
-# Clone kho airgeddon
-git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
+# Clone kho airgeddon (bản tiếng Việt)
+git clone https://github.com/thanhtai21/airgeddon-vietnamese.git
 
 # Vào thư mục airgeddon
-cd airgeddon
+cd airgeddon-vietnamese
 
 # Xem danh sách file
 ls -la
@@ -200,23 +200,23 @@ ls -la
 
 #### Cách 2: Tải file trực tiếp (nhanh nhất)
 ```bash
-# Cài wget
+# Tải wget
 sudo apt install wget
 
 # Tải file airgeddon.sh
-wget https://raw.githubusercontent.com/v1s1t0r1sh3r3/airgeddon/master/airgeddon.sh
+wget https://raw.githubusercontent.com/thanhtai21/airgeddon-vietnamese/main/airgeddon.sh
 
 # Tải file ngôn ngữ
-wget https://raw.githubusercontent.com/v1s1t0r1sh3r3/airgeddon/master/language_strings.sh
+wget https://raw.githubusercontent.com/thanhtai21/airgeddon-vietnamese/main/language_strings.sh
 
 # Tải database PIN
-wget https://raw.githubusercontent.com/v1s1t0r1sh3r3/airgeddon/master/known_pins.db
-wget https://raw.githubusercontent.com/v1s1t0r1sh3r3/airgeddon/master/pindb_checksum.txt
+wget https://raw.githubusercontent.com/thanhtai21/airgeddon-vietnamese/main/known_pins.db
+wget https://raw.githubusercontent.com/thanhtai21/airgeddon-vietnamese/main/pindb_checksum.txt
 ```
 
 #### Cách 3: Download ZIP từ GitHub
 ```
-1. Vào: https://github.com/v1s1t0r1sh3r3/airgeddon
+1. Vào: https://github.com/thanhtai21/airgeddon-vietnamese
 2. Nhấn nút "Code" (màu xanh lá)
 3. Chọn "Download ZIP"
 4. Giải nén file ZIP
