@@ -85,7 +85,7 @@ sudo apt install -y git aircrack-ng iw xterm hashcat reaver bully pixiewps bette
 ### Bước 2: Tải airgeddon
 ```bash
 cd ~
-git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
+git clone https://github.com/thanhtai21/airgeddon-vietnamese.git
 ```
 
 ---
@@ -412,17 +412,17 @@ hashcat -m 22000 handshake.hc22000 /usr/share/wordlists/rockyou.txt
 
 ## Cài Đặt (Chi tiết hơn)
 
-### Cách 1: Clone từ GitHub
+### Cách 1: Clone từ GitHub (Bản tiếng Việt)
 ```bash
-git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
-cd airgeddon
+git clone https://github.com/thanhtai21/airgeddon-vietnamese.git
+cd airgeddon-vietnamese
 sudo bash airgeddon.sh
 ```
 
 ### Cách 2: Docker
 ```bash
-docker pull v1s1t0r1sh3r3/airgeddon
-docker run -it --net=host --privileged -v /dev:/dev v1s1t0r1sh3r3/airgeddon
+docker pull thanhtai21/airgeddon-vietnamese
+docker run -it --net=host --privileged -v /dev:/dev thanhtai21/airgeddon-vietnamese
 ```
 
 ### Cách 3: Tải trực tiếp
@@ -530,18 +530,21 @@ sudo bash airgeddon.sh
 ║  • Vi phạm giấy phép GPL = vi phạm quyền tác giả thực sự       ║
 ║  • Tòa án VN đã xử vi phạm GPL như vi phạm quyền tác giả      ║
 ║                                                                  ║
+║  ⚖️ BỘ LUẬT HÌNH SỰ 2015 (sửa đổi 2017)                     ║
+║  • Điều 289: Tội xâm nhập trái phép vào mạng máy tính, mạng   ║
+║    viễn thông hoặc phương tiện điện tử của người khác          ║
+║    → Phạt tiền 50-300 triệu đồng hoặc phạt tù từ 1-5 năm     ║
+║      (khung cơ bản)                                             ║
+║    → Có thể lên đến 3-7 năm, thậm chí 7-12 năm nếu thuộc      ║
+║      trường hợp nghiêm trọng (hệ thống an ninh quốc gia,       ║
+║      tài chính-ngân hàng, gây thiệt hại từ 1 tỷ đồng...)      ║
+║                                                                  ║
 ║  🔒 LUẬT AN NINH MẠNG 2018                                     ║
 ║  • Điều 8: Nghiêm cấm sử dụng không gian mạng để xâm nhập    ║
-║    trái phép hệ thống thông tin                                 ║
-║  • Điều 16: Chỉ được phép tấn công xâm nhập khi có ủy quyền   ║
+║    trái phép, phát tán mã độc, cản trở/tấn công hệ thống     ║
+║    mạng của người khác                                          ║
 ║                                                                  ║
-║  ⚖️ BỘ LUẬT HÌNH SỰ 2015 (sửa đổi 2017)                     ║
-║  • Điều 289: Tội xâm nhập trái phép hệ thống mạng máy tính   ║
-║    → Phạt tù từ 1-5 năm                                         ║
-║  • Điều 290: Tội sử dụng trái phép mạng máy tính              ║
-║    → Phạt tù từ 2-7 năm                                         ║
-║                                                                  ║
-║  ✅ CHỈ SỬ DỤNG KHI CÓ UY QUYỀIN                              ║
+║  ✅ CHỈ SỬ DỤNG KHI CÓ ỦY QUYỀN                              ║
 ║  • Mạng WiFi của riêng bạn                                      ║
 ║  • Được chủ sở hữu mạng đồng ý bằng văn bản                   ║
 ║  • Trong môi trường lab được kiểm soát                          ║
@@ -558,7 +561,7 @@ sudo bash airgeddon.sh
 
 ### 📋 Điều kiện sử dụng
 ```
-1. ✅ Chỉ test trên mạng bạn SỞ HỮU hoặc được UY QUYỀN
+1. ✅ Chỉ test trên mạng bạn SỞ HỮU hoặc được ỦY QUYỀN
 2. ✅ Luôn có sự đồng ý bằng văn bản từ chủ sở hữu mạng
 3. ✅ Trong môi trường lab được kiểm soát
 4. ✅ Tuân thủ pháp luật Việt Nam và quốc tế
@@ -595,7 +598,7 @@ WEP: Wired Equivalent Privacy (cũ, dễ crack)
 Deauthentication: Ngắt kết nối client
 Evil Twin: AP giả mạo
 Capture Portal: Trang đăng nhập giả
-Brforce: Thử tất cả tổ hợp
+Bruteforce: Thử tất cả tổ hợp
 Rainbow Table: Bảng hash có sẵn
 ```
 
@@ -746,7 +749,7 @@ Theo giấy phép GPLv3, bạn có quyền:
 ```
 
 ### Liên hệ
-- **Tác giả gốc:** v1s1t0r.1s.h3r3@gmail.com
+- **Tác giả gốc:** https://github.com/v1s1t0r1sh3r3
 - **Repository gốc:** https://github.com/v1s1t0r1sh3r3/airgeddon
 - **Toàn văn GPLv3:** https://www.gnu.org/licenses/gpl-3.0.html
 

@@ -11,7 +11,7 @@
 ║                                                                      ║
 ║   TRƯỚC KHI SỬ DỤNG AIRGEDDON, BẠN PHẢI CAM KẾT:                  ║
 ║                                                                      ║
-║   ✅ Chỉ test trên mạng WiFi bạn SỞ HỮU hoặc được UY QUYỀN         ║
+║   ✅ Chỉ test trên mạng WiFi bạn SỞ HỮU hoặc được ỦY QUYỀN         ║
 ║   ✅ Luôn có sự đồng ý bằng văn bản từ chủ sở hữu                   ║
 ║   ✅ Sử dụng trong môi trường lab/đào tạo được kiểm soát             ║
 ║   ✅ Tuân thủ pháp luật Việt Nam và quốc tế                         ║
