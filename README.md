@@ -631,6 +631,28 @@ sudo apt install aircrack-ng hashcat reaver bully
 
 ## 📜 Bản Quyền & Tác Giả
 
+### ⚠️ LƯU Ý QUAN TRỌNG VỀ BẢN QUYỀN
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║           ⚠️ CẢNH BÁO BẢN QUYỀN - ĐỌC KỸ TRƯỚC KHI SỬ DỤNG  ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  ⛔ BẢN DỊCH NÀY CHƯA ĐƯỢC SỰ ĐỒNG Ý CỦA TÁC GỐC          ║
+║                                                                  ║
+║  ✅ Đây là bản dịch KHÔNG CHÍNH THỨC                          ║
+║  ✅ Được tạo với mục đích HỌC TẬT RIÊNG                       ║
+║  ✅ KHÔNG được sử dụng thương mại                              ║
+║  ✅ KHÔNG được phân phối lại mà không có sự đồng ý             ║
+║  ✅ Nên XÓA bản dịch sau khi sử dụng                          ║
+║                                                                  ║
+║  📞 LIÊN HỆ TÁC GỐC ĐỂ XIN PHÉP:                             ║
+║  Email: v1s1t0r.1s.h3r3@gmail.com                              ║
+║  GitHub: https://github.com/v1s1t0r1sh3r3                      ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
 ### Tác giả gốc
 - **Airgeddon** được tạo bởi **v1s1t0r** (https://github.com/v1s1t0r1sh3r3)
 - **Repository gốc:** https://github.com/v1s1t0r1sh3r3/airgeddon
@@ -638,8 +660,8 @@ sudo apt install aircrack-ng hashcat reaver bully
 
 ### Bản dịch tiếng Việt
 - **Bản dịch:** thanhtai21 (https://github.com/thanhtai21)
-- **Mục đích:** Hỗ trợ học tập và nghiên cứu cho cộng đồng Việt Nam
-- **Lưu ý:** Đây là bản dịch không chính thức, vui lòng tham khảo repository gốc để có phiên bản mới nhất
+- **Mục đích:** HỌC TẬT RIÊNG - Chưa được tác giả gốc chấp thuận
+- **Trạng thái:** ⛔ CHƯA ĐƯỢC SỰ ĐỒNG Ý CỦA TÁC GỐC
 
 ### CAM KẾT TÔN TRỌNG BẢN QUYỀN
 ```
@@ -649,10 +671,19 @@ sudo apt install aircrack-ng hashcat reaver bully
 ║ ✅ Tôn trọng tác giả gốc: v1s1t0r                              ║
 ║ ✅ Giữ nguyên giấy phép GPL v3+                                 ║
 ║ ✅ Ghi rõ nguồn gốc khi sử dụng                                ║
-║ ✅ Không sử dụng thương mại mà không có sự đồng ý               ║
-║ ✅ Liên hệ tác giả gốc để đóng góp bản dịch                    ║
+║ ✅ KHÔNG sử dụng thương mại                                    ║
+║ ✅ KHÔNG phân phối lại                                          ║
+║ ✅ Sẵn sàng XÓA nếu tác giả gốc yêu cầu                      ║
+║ ✅ Nên liên hệ tác giả gốc để xin phép chính thức             ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
+
+### HƯỚNG DẪN SỬ DỤNG HỢP PHÁP
+1. **Chỉ sử dụng cho mục đích học tập cá nhân**
+2. **Không chia sẻ công khai bản dịch**
+3. **Xóa bản dịch sau khi học xong**
+4. **Liên hệ tác giả gốc để xin phép nếu muốn đóng góp**
+5. **Sử dụng repository gốc (tiếng Anh) cho công việc thực tế**
 
 ### Liên hệ tác giả gốc
 - **Email:** v1s1t0r.1s.h3r3@gmail.com
