@@ -17,7 +17,7 @@
 # Thay đổi dòng này để chọn ngôn ngữ mặc định khác
 # Change this line to select another default language
 # Chọn từ các giá trị có sẵn trong mảng / Select one from available values in array
-language="ENGLISH"
+language="VIETNAMESE"
 declare -A lang_association=(
 								["en"]="ENGLISH"
 								["es"]="SPANISH"
@@ -3351,6 +3351,15 @@ language="VIETNAMESE"
 				language_strings "${language}" 251 "red"
 			else
 				language="CHINESE"
+				language_strings "${language}" 83 "yellow"
+			fi
+			language_strings "${language}" 115 "read"
+		;;
+		14)
+			if [ "${language}" = "VIETNAMESE" ]; then
+				language_strings "${language}" 251 "red"
+			else
+				language="VIETNAMESE"
 				language_strings "${language}" 83 "yellow"
 			fi
 			language_strings "${language}" 115 "read"
@@ -11216,6 +11225,9 @@ function set_captive_portal_language() {
 		;;
 		13)
 			captive_portal_language="CHINESE"
+		;;
+		14)
+			captive_portal_language="VIETNAMESE"
 		;;
 		*)
 			invalid_captive_portal_language_selected
